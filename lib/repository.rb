@@ -1,11 +1,11 @@
 
-require './git_object'
-require './commit'
-require './code_event'
-require './method_finder'
-require './spec_finder'
-require './writer_csv'
-require './reader_csv'
+require_relative 'git_object'
+require_relative 'commit'
+require_relative 'code_event'
+require_relative 'method_finder'
+require_relative 'spec_finder'
+require_relative 'writer_csv'
+require_relative 'reader_csv'
 
 def load_events path
   Repository.new(path).events

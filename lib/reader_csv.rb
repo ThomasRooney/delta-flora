@@ -1,6 +1,6 @@
 require 'csv'
 require 'time'
-require'./code_event'
+require_relative 'code_event'
 
 def read_events file_name
   first_row = true

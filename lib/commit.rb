@@ -1,6 +1,6 @@
 
 require 'time'
-require './git_object'
+require_relative 'git_object'
 
 class Commit < GitObject
   attr_reader :sha1, :committer, :date

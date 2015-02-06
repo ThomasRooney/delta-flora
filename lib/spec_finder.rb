@@ -1,7 +1,7 @@
 
 # MCF needs support for do blocks in specs
 
-require './method'
+require_relative 'method'
 
 module DeltaFlora
   class SpecFinder

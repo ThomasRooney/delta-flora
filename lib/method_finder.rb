@@ -1,6 +1,6 @@
 
 require 'ripper'
-require './method'
+require_relative 'method'
 
 module DeltaFlora
   class MethodFinder < Ripper

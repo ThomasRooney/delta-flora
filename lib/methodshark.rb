@@ -1,7 +1,7 @@
 
 
-require './reader_csv'
-require './code_event'
+require_relative 'reader_csv'
+require_relative 'code_event'
 
 
 REPO_PATH = ARGV[0]
